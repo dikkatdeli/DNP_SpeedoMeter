@@ -1,0 +1,91 @@
+#UI{
+  left: 80vw; 
+	bottom: 33vw;
+  position: absolute;
+  
+}
+
+#FuelText{
+	left: 109px;
+  top: 347px;
+  position: absolute;
+}
+
+.numSpeed{
+	
+	left: -5px;
+  top: 85px;
+  position: absolute;
+}
+
+#digit3{
+	left: 190px;
+  top: 242px;
+  position: absolute;
+  
+}
+
+#digit2{
+	left: 215px;
+  top: 242px;
+  position: absolute;
+}
+
+#digit1{
+	left: 240px;
+  top: 242px;
+  position: absolute;
+}
+
+
+.gear{
+	
+  left: 235px;
+  top: 285px;
+  position: absolute;
+}
+
+.neadle1 .icon{
+   left: 190px;
+  top: 242px;
+  position: absolute;
+  opacity: 1;
+	transform: rotate(0deg);
+}
+
+.backgroundRPM{
+   left: 131px;
+  top: 240px;
+  position: absolute;
+
+}
+
+.backgroundRPMNum{
+   left: 130px;
+  top: 237px;
+  position: absolute;
+
+}
+
+.neadle2 .icon{
+   left: 100px;
+  top: 280px;
+  position: absolute;
+  opacity: 1;
+	transform: rotate(0deg);
+}
+
+.backgroundFuel{
+   left: 73px;
+  top: 290px;
+  position: absolute;
+
+}
+
+.backgroundFuelNum{
+   left: 71px;
+  top: 290px;
+  position: absolute;
+
+}
+
