@@ -53,16 +53,14 @@ function DisplayHud()
 		local gear         = GetVehicleCurrentGear(vehicle)
 		--local turbo        = GetVehicleTurboPressure(vehicle)
 		
-		if not GetIsVehicleEngineRunning(vehicle) then rpm = 0 end -- fix for R*'s Engine RPM fuckery
+		if not GetIsVehicleEngineRunning(vehicle) then rpm = 0 end 
 		
 		if rpm > 0.3 then	
 		RPM = rpm * 130
 		else
 		RPM = rpm * 100
 		 end 
-		
-		--fuel = fuel * 1.65
-		
+				
 		if fuel == 0 then
 			fuel = "0"
 		end
